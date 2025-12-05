@@ -1,0 +1,149 @@
+/* ---------- GENERAL PAGE STYLE ---------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Wrapper for all main content */
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  /* ---------- HEADER ---------- */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  header p {
+    margin: 5px 0 15px 0;
+  }
+  
+  /* ---------- NAVIGATION ---------- */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ---------- SECTIONS & HEADINGS ---------- */
+  h2 {
+    color: #333;
+    margin-top: 25px;
+  }
+  
+  h3 {
+    color: #444;
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-bottom: 25px;
+  }
+  
+  /* ---------- FORMS ---------- */
+  form {
+    margin-top: 15px;
+  }
+  
+  .form-row {
+    margin-bottom: 15px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* ---------- VIDEO ---------- */
+  video {
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  /* ---------- FOOTER ---------- */
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #222;
+    color: white;
+  }
+  
+  /* ---------- RESPONSIVE DESIGN ---------- */
+  @media (max-width: 900px) {
+    main {
+      margin: 15px;
+      padding: 15px;
+    }
+  
+    nav li {
+      margin: 0 6px;
+    }
+  }
+  
+  
+  @media (max-width: 600px) {
+  
+    nav li {
+      display: block;
+      margin: 8px 0;
+    }
+  
+    main {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    video {
+      width: 100%;
+    }
+  }
+  
